@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: solid 1px; */
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+}
+
+.nav-wrapper {
+    height: 100vh;
+    width: 18%;
+    background-color: #f0f0ff;
+}
+
+.nav {
+    margin-top: 43px;
+    margin-left: 18px;
+}
+
+.nav-content {
+    display: flex;
+    margin-bottom: 31px;
+    align-items: center;
+}
+
+.nav-icon {
+    border: solid 1px;
+    height: 8px;
+    width: 8px;
+    margin-right: 9px;
+    border-radius: 50%;
+}
+
+
+.contents-wrapper-top {
+    height: 100%;
+    width: 82%;
+    background-image: url(../img/IzmYuta.png);
+}
+
+.contents-wrapper-portfolio {
+    height: 100%;
+    width: 82%;
+    background-image: url(../img/Portfolio.png);
+}
+
+.contents-wrapper-achievements {
+    height: 100%;
+    width: 82%;
+    background-image: url(../img/Achievements.png);
+}
+
+.heading {
+    margin-top: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 32px;
+}
+
+.contents-wrapper-inner {
+    display: flex;
+    width: 880px;
+    margin: 0 auto;
+}
+
+.content-left {
+    width: 350px;
+}
+
+.face-photo {
+    width: 100%;
+    height: 414px;
+    margin-bottom: 23px;
+}
+
+.profile {
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+
+.content-right {
+    width: 530px;
+}
+
+.news-heading {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.news-list {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.news-list-title {
+    margin-top: 5px;
+    margin-bottom: 4px;
+}
+
+.news-list-description {
+    margin-bottom: 30px;
+    margin-left: 80px;
+}
+
+th,
+td {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px;
+}
+
+th[scope='col'] {
+    background-color: #696969;
+    color: #fff;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
