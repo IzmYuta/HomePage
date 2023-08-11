@@ -17,4 +17,4 @@ jobs:
           aws-region: ap-northeast-1
       - name: S3 sync
         working-directory: static-files
-        run: aws s3 sync . s3://izmyuta-homepage
+        run: aws s3 sync . s3://izmyuta-homepage --delete --grants read=uri=http://acs.amazonaws.com/groups/global/AllUsers --exclude "README.md"
