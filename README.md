@@ -18,8 +18,7 @@ https://izmyuta.com/
   - CloudFrontからのアクセスに限定したいので、パブリックアクセスは拒否したいが、ワークフローも維持しておきたい...
   - 何かいい方法あったら教えてください 🙏
 - CloudFront：S3バケットが更新されても、CloudFrontに反映されない
-  - キャッシュが残っていたことが原因。キャッシュポリシーをChachingDisabled変更して対応。
-  - 頻繁に更新する予定がない時はCachingOptimizedにしておく。
+  - キャッシュが残っていたことが原因。キャッシュを削除して対応。
 - スマホ版でも見れるようにするのが大変だった
   - -webkit-text-size-adjustの値やViewPortを色々いじることで対応
 
