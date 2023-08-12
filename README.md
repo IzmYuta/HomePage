@@ -19,6 +19,7 @@ https://izmyuta.com/
   - 何かいい方法あったら教えてください 🙏
 - CloudFront：S3バケットが更新されても、CloudFrontに反映されない
   - キャッシュが残っていたことが原因。キャッシュポリシーを変更して対応。
-
+- スマホ版でも見れるようにするのが大変だった
+  - -webkit-text-size-adjustの値やViewPortを色々いじることで対応
 ## サービス構成図
 ![](aws.png)
