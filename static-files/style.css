@@ -7,6 +7,7 @@
 
 body {
     display: flex;
+    -webkit-text-size-adjust: 100%;
 }
 
 .nav-wrapper {
