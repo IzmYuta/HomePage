@@ -62,16 +62,16 @@ body {
 
 .contents-wrapper-inner {
     display: flex;
-    width: 880px;
+    width: 80%;
     margin: 0 auto;
 }
 
 .content-left {
-    width: 350px;
+    width: 322px;
 }
 
 .face-photo {
-    width: 100%;
+    width: 322px;
     height: 414px;
     margin-bottom: 23px;
 }
@@ -83,7 +83,7 @@ body {
 
 
 .content-right {
-    width: 530px;
+    width: 60%;
 }
 
 .news-heading {
